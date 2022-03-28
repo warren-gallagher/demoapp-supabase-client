@@ -25,12 +25,14 @@ git clone git@bitbucket.org:warren_gallagher/demoapp-supabase-client.git
 ```
 
 ### Create a .env file substituting values from your Supabase & Stripe accounts
+```
 VITE_PUBLIC_SUPABASE_URL="YOUR_SUPABASE_URL"
 VITE_PUBLIC_SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY"
 PRIVATE_SUPABASE_SERVICE_ROLE_KEY="YOUR_SUPABASE_SERVICE_ROLE_KEY"
 PRIVATE_SUPABASE_JWT_SECRET="YOUR_PRIVATE_SUPBASE_JWT_SECRET"
 PRIVATE_STRIPE_API_KEY="YOUR_PRIVATE_STRIPE_API_KEY"
 PRIVATE_DEMOAPP_API_KEY="Generate-a-unique-uuid-for-this"
+```
 
 ### Install developer dependencies
 ```
